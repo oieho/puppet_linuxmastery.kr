@@ -1,0 +1,8 @@
+node 'vm01.linuxmastery.kr' {
+   include packages
+   include motd   
+}
+node 'vm02.linuxmastery.kr' {
+   # include packages
+   include motd 
+}
